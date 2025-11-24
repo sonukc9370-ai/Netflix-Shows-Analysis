@@ -1,5 +1,5 @@
 # 🎬 Netflix Movies and TV Shows Data Analysis
-![Netflix](netflix_image.png)
+![Netflix](netflix_image.jpeg)
 
 ## 📌 Overview
 
