@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 
 ## 📋 Prerequisites
 - MySQL 8.0 or higher
-- CSV file: `netflix_titles.csv`
+- CSV file: `netflix_data.csv`
 - Required MySQL permissions for LOAD DATA INFILE
 
 
