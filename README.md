@@ -95,7 +95,7 @@ GROUP BY Genre
 ORDER BY No_Of_Contents DESC;
 ```
 
-### 3. Top 5 Years with Highest Average Content Release in India
+### 3.Years With Highest Contribution to Indian Content
 *Calculates the yearly average release share for India.*
 ```sql
 SELECT 
