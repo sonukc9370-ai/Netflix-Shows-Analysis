@@ -17,8 +17,8 @@ CREATE TABLE netflix (
     description VARCHAR(550)
 );
 
--- Importing Netflix.csv file
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/netflix_titles.csv'
+-- Importing Netflix.csv file 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/netflix_titles.csv'  -- change this file path to your local directory path
 INTO TABLE netflix
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -26,6 +26,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
 
+-- Business Problems Solutions
 -- 1. Count the Number of Movies vs TV Shows
 SELECT Type,count(*) as Total
 FROM netflix GROUP BY Type;
