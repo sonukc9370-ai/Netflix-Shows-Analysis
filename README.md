@@ -214,11 +214,11 @@ GROUP BY Type;
 ---
 
 ## 💡 Key Findings & Insights
-1. **Content Distribution:** The dataset reveals the ratio between Movies and TV Shows, helping understand Netflix's content strategy.
-2. **Global Reach:** Identifying the top countries highlights Netflix's primary markets.
-3. **Genre Popularity:** Using complex string parsing (JSON), we identified the most prevalent genres on the platform.
-4. **Local Talents:** For specific markets like India, we identified the most frequently appearing actors.
-5. **Content Classification:** Analyzing keywords in descriptions allowed us to categorize content into "Mature" vs. "General" audience buckets automatically.
+1.  **Content Distribution:** The library is dominated by Movies, which account for **[Insert %]** of total content, while TV Shows make up the remaining **[Insert %]**.
+2.  **Top Markets:** The **United States** is the leading content provider, followed closely by **[India]** and the **[UK]**, indicating Netflix's core production regions.
+3.  **Genre Trends:** **[International Movies]**, **[Dramas]**, and **[Comedies]** are the most populated genres, showing a shift towards diverse and dramatic storytelling.
+4.  **Talent Analysis (India):** Actors like **[Anupam Kher]** and **[Shah Rukh Khan]** appear most frequently in Indian movies, establishing themselves as key figures in the region's library.
+5.  **Content Classification:** Approximately **[Insert Count]** titles fall into the "Mature Audience" category (based on keywords like 'kill' and 'violence'), highlighting a significant segment of action/thriller content.
 
 ---
 
