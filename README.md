@@ -215,16 +215,23 @@ GROUP BY Type;
 
 ## 💡 Key Findings & Insights
 1.  **Content Distribution:** The library is dominated by Movies, which account for **70%** of total content, while TV Shows make up the remaining **30%**.
-   ![image1](Images/images1.png)
+   ![image1](Images/images1.png
+---
+
 3.  **Top Markets:** The **United States(58%)** is the leading content provider, followed closely by **India(18%)** and the **UK(11%)**, indicating Netflix's core production regions.
    ![image1](Images/images2.png)
+--- 
+
 5.  **Genre Trends:** **[International Movies]**, **[Dramas]**, and **[Comedies]** are the most populated genres, showing a shift towards diverse and dramatic storytelling.
    ![image1](Images/images3.png)
+--- 
+
 7.  **Talent Analysis (India):** Actors like **[Anupam Kher]** and **[Shah Rukh Khan]** appear most frequently in Indian movies, establishing themselves as key figures in the region's library.
    ![image1](Images/images4.png)
+--- 
+
 9.  **Content Classification:** Approximately **95.55%** of the shows falls into "Mature Audience" category (based on keywords like 'kill' and 'violence'), highlighting a significant segment of action/thriller content.
    ![image1](Images/images5.png)
-
 ---
 
 ## 🛠️ How to Use
