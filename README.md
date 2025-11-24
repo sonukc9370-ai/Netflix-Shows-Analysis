@@ -5,6 +5,12 @@
 
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following `README` provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
 
+## 📋 Prerequisites
+- MySQL 8.0 or higher
+- CSV file: `netflix_titles.csv`
+- Required MySQL permissions for LOAD DATA INFILE
+
+
 ## 📝 Schema Design
 
 The project uses a database named `Netflix_P4` with a primary table `netflix`.
@@ -95,7 +101,7 @@ GROUP BY Genre
 ORDER BY No_Of_Contents DESC;
 ```
 
-### 3.Years With Highest Contribution to Indian Content
+### 3. Top 5 Years with Highest Average Content Release
 *Calculates the yearly average release share for India.*
 ```sql
 SELECT 
@@ -206,7 +212,7 @@ SELECT Type, COUNT(*) AS No_Of_Times
 FROM Netflix 
 WHERE Type = 'Movie' 
 AND casts LIKE "%Salman Khan%" 
-AND YEAR(STR_TO_DATE(date_added, "%M %d, %Y")) >= 10 
+AND YEAR(STR_TO_DATE(date_added, "%M %d, %Y")) >= Year(Curdate())- 10 
 GROUP BY Type;
 ```
 </details>
